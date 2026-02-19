@@ -1,0 +1,144 @@
+/* Wrapper for the stadium-themed registration/login page */
+.register-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Card for the registration/login form */
+.register-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 32px;
+  border-radius: 20px;
+  background: #fef9f0; /* Light stadium pitch color */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Stadium logo wrapper */
+.logo-wrapper {
+  /* width: 64px;
+  height: 64px;
+  background: #8a0c15; Cricket ball orange/golden */
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+}
+
+/* Logo image inside wrapper */
+.logo-wrapper img {
+ width: 90px;
+  border-radius: 14px;
+  border: 2px solid #06285a;
+  box-shadow:
+    2px 2px 5px #06285a, 
+}
+
+/* Title of the card */
+.register-title {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #061c41; /* Deep blue */
+}
+
+.register-subtitle {
+  text-align: center;
+  color: #000000;
+  margin-top: 4px;
+}
+
+/* Form layout */
+.register-form {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Labels */
+.form-group label {
+  font-size: 14px;
+  color: #8a0c15; /* Dark green labels */
+  font-weight: 500;
+}
+
+/* Input wrapper for icons */
+.input-wrapper {
+  position: relative;
+  margin-top: 6px;
+}
+
+.input-wrapper svg {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  color: #6b7280;
+}
+
+/* Input fields */
+.input-wrapper input {
+  width: 100%;
+  padding: 12px 16px 12px 40px;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  background: #f3f4f6;
+  outline: none;
+}
+
+.input-wrapper input:focus {
+  border-color: #8a0c15; /* Cricket ball orange focus */
+  box-shadow: 0 0 0 2px #8a0c15;
+}
+
+/* Error text */
+.error-text {
+  font-size: 12px;
+  color: #dc2626;
+  margin-top: 4px;
+}
+
+/* Submit button */
+.submit-btn {
+  margin-top: 8px;
+  padding: 12px;
+  border-radius: 999px;
+  background: #8a0c15; 
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.submit-btn:hover {
+  background: #585c59df; 
+}
+
+.submit-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* Login text */
+.login-text {
+  text-align: center;
+  font-size: 14px;
+  color: #0e0e0f;
+  margin-top: 24px;
+}
+
+.login-text button {
+  background: none;
+  border: none;
+  color: #060706;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 4px;
+}
